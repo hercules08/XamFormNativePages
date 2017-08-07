@@ -92,9 +92,14 @@
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
+    <Compile Include="MainPageRenderer.cs" />
+    <Compile Include="MainPageRenderer.designer.cs">
+      <DependentUpon>MainPageRenderer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
+    <InterfaceDefinition Include="MainPageRenderer.xib" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
